@@ -1,0 +1,2 @@
+domain_name = "example.com"
+aws_region  = "eu-west-2"
