@@ -10,5 +10,12 @@ variable "bucket" {
 }
 
 
+variable "domain_name" {
+  description = "Your apex domain from Namecheap, e.g. example.com"
+  type        = string
+}
 
-
+variable "github_repo" {
+  description = "GitHub repo that deploys the site, as owner/repo"
+  type        = string
+}
